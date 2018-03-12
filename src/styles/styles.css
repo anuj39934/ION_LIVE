@@ -1,0 +1,83 @@
+#app {
+	font: 14px;
+	color: #4d4d4d;
+	margin: 0 auto;
+
+}
+a.active{
+	color: orange;
+
+}
+nav{
+	padding-top: 20px;
+}
+
+.Header {
+	background-color: yellow;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo {
+	background-color: green;
+	height: 68px;
+}
+
+.search {
+	background-color: red;
+}
+
+.Navigation ul {
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  height: 0px;
+}
+.Navigation ul li {
+  font-weight: 400;
+  padding: 7px 10px;
+  font-size: 14px;
+  transition: background 0.125s ease;
+  border-radius: 3px;
+}
+.Navigation ul li:hover {
+  background: red;
+  cursor: pointer;
+}
+
+.imgContainer {
+	background-color: yellow;
+	height: 60px;
+	border: 1px solid red;
+	width: 90px;
+	border: solid 2px ;
+}
+.navbar-brand {
+	padding-top: 9px;
+
+}
+.form-inline {
+	float :right;
+	margin-top: 4px;
+	width: 330px;
+}
+.form-inline input {
+	font-family: font;
+  font-weight: 300;
+  font-size: 14px;
+  height: 37px;
+  width: 100%;
+  background: transparent;
+  color: black;
+  appearance: none;
+  border: 0;
+  border: 2px solid rgba(128, 128, 128, .1);
+  outline: none;
+  border-radius: 37px;
+  padding: 0 10px;
+  pointer-events: all;
+  transition: border 0.25s ease, width 0.125s ease 0.125s;
+}
